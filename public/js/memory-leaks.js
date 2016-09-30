@@ -12,7 +12,7 @@ function createSomeNodes() {
     document.getElementById("nodes").appendChild(frag);
 }
 function grow() {
-    x.push(new Array(1000000).join('x'));
+    //x.push(new Array(1000000).join('x'));
     createSomeNodes();
     setTimeout(grow,1000);
 }

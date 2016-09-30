@@ -1,5 +1,5 @@
 $(document).on('scroll', function() {
-  //You found me!
+  //console.log("You found me!");
 });
 
 var intervalID = window.setInterval(checkStyles, 500);
